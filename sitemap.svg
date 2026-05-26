@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
+  <title id="title">Hierarchical site map graphic</title>
+  <desc id="desc">A three-level site structure diagram with home at the top and topic pages below.</desc>
+  <rect width="900" height="440" fill="#eef4f8"/>
+  <rect x="360" y="48" width="180" height="58" rx="8" fill="#102a43"/>
+  <text x="450" y="86" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" text-anchor="middle">Home</text>
+  <path d="M450 106v54M172 160h556" stroke="#102a43" stroke-width="7" stroke-linecap="round"/>
+  <g fill="#ffffff" stroke="#1f4e79" stroke-width="5" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+    <rect x="96" y="160" width="152" height="54" rx="8"/>
+    <text x="172" y="194">Copyright</text>
+    <rect x="284" y="160" width="152" height="54" rx="8"/>
+    <text x="360" y="194">Fair Use</text>
+    <rect x="472" y="160" width="152" height="54" rx="8"/>
+    <text x="548" y="194">AI Media</text>
+    <rect x="660" y="160" width="152" height="54" rx="8"/>
+    <text x="736" y="194">Resources</text>
+  </g>
+  <g stroke="#102a43" stroke-width="5" stroke-linecap="round">
+    <path d="M172 214v40M360 214v40M548 214v40M736 214v40"/>
+  </g>
+  <g fill="#f0a202" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="middle">
+    <rect x="76" y="254" width="192" height="42" rx="8"/>
+    <text x="172" y="281">What It Protects</text>
+    <rect x="264" y="254" width="192" height="42" rx="8"/>
+    <text x="360" y="281">Four Factors</text>
+    <rect x="452" y="254" width="192" height="42" rx="8"/>
+    <text x="548" y="281">Ownership Questions</text>
+    <rect x="640" y="254" width="192" height="42" rx="8"/>
+    <text x="736" y="281">Outside Links</text>
+  </g>
+  <g fill="#ffffff" stroke="#d6dee6" stroke-width="4" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle">
+    <rect x="96" y="326" width="152" height="38" rx="8"/>
+    <text x="172" y="351">Why It Matters</text>
+    <rect x="284" y="326" width="152" height="38" rx="8"/>
+    <text x="360" y="351">CC Licenses</text>
+    <rect x="472" y="326" width="152" height="38" rx="8"/>
+    <text x="548" y="351">Deepfakes</text>
+    <rect x="660" y="326" width="152" height="38" rx="8"/>
+    <text x="736" y="351">Research Tips</text>
+  </g>
+</svg>

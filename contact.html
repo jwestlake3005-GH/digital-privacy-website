@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Rights Guide | Contact and Feedback</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div id="wrapper">
+    <header>
+      <div id="logo">
+        <h1>Digital Rights Guide</h1>
+        <p>Internet privacy laws and the digital rights of users</p>
+      </div>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="privacy.html">Privacy Rights</a></li>
+          <li><a href="gdpr.html">GDPR</a></li>
+          <li><a href="forgotten.html">Right to Be Forgotten</a></li>
+          <li><a href="moderation.html">Content Moderation</a></li>
+          <li><a href="ai-privacy.html">AI &amp; Data</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="content">
+        <h1>Share Your Thoughts</h1>
+        <figure class="page-figure">
+          <img src="images/contact.svg" alt="Envelope and feedback checklist">
+          <figcaption>Original graphic representing a feedback form.</figcaption>
+        </figure>
+        <p>Use this feedback form to share which internet privacy and digital rights topics you want explained more clearly.</p>
+
+        <form id="feedback-form" method="post" action="#">
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+          </fieldset>
+
+          <fieldset>
+            <legend>Your Interests</legend>
+            <p>Which topic interests you most?</p>
+            <div class="choice">
+              <input type="radio" id="privacy-topic" name="topic" value="privacy">
+              <label for="privacy-topic">Privacy rights</label>
+              <input type="radio" id="gdpr-topic" name="topic" value="gdpr">
+              <label for="gdpr-topic">GDPR</label>
+              <input type="radio" id="moderation-topic" name="topic" value="moderation">
+              <label for="moderation-topic">Content moderation</label>
+            </div>
+            <p>What would you like to learn more about?</p>
+            <div class="choice">
+              <input type="checkbox" id="data" name="learn" value="data">
+              <label for="data">Personal data</label>
+              <input type="checkbox" id="safety" name="learn" value="safety">
+              <label for="safety">Online safety</label>
+              <input type="checkbox" id="ai" name="learn" value="ai">
+              <label for="ai">AI and privacy</label>
+            </div>
+            <label for="concern">Main concern:</label>
+            <select id="concern" name="concern">
+              <option value="tracking">Online tracking</option>
+              <option value="deletion">Deleting data</option>
+              <option value="moderation">Platform moderation</option>
+              <option value="ai">AI data use</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>Message</legend>
+            <label for="message">Your message:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+          </fieldset>
+
+          <p id="form-error" class="error-message" aria-live="polite"></p>
+          <div class="form-actions">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </div>
+        </form>
+      </section>
+
+      <aside class="sidebar">
+        <h2>Form Checklist</h2>
+        <ul class="quick-list">
+          <li>Text and email fields</li>
+          <li>Radio buttons and check boxes</li>
+          <li>Select list and textarea</li>
+          <li>Fieldset, legend, submit, and reset</li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Digital Rights Guide</p>
+      <p>Last Updated: May 2026</p>
+      <p><a href="contact.html">Contact</a> | <a href="resources.html">Resources</a> | <a href="sitemap.html">Site Map</a></p>
+    </footer>
+  </div>
+</body>
+</html>

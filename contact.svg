@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
+  <title id="title">Feedback form graphic</title>
+  <desc id="desc">A message envelope and completed feedback checklist.</desc>
+  <rect width="900" height="440" fill="#f7f8fa"/>
+  <rect x="128" y="100" width="330" height="230" rx="14" fill="#ffffff" stroke="#d6dee6" stroke-width="5"/>
+  <path d="M140 126l153 122 153-122" fill="none" stroke="#102a43" stroke-width="10" stroke-linejoin="round"/>
+  <rect x="520" y="82" width="250" height="276" rx="14" fill="#ffffff" stroke="#d6dee6" stroke-width="5"/>
+  <rect x="558" y="126" width="156" height="18" rx="4" fill="#1f4e79"/>
+  <rect x="558" y="180" width="170" height="16" rx="4" fill="#9aa8b5"/>
+  <rect x="558" y="232" width="150" height="16" rx="4" fill="#9aa8b5"/>
+  <rect x="558" y="284" width="124" height="16" rx="4" fill="#9aa8b5"/>
+  <path d="M526 180l18 18 34-42M526 232l18 18 34-42M526 284l18 18 34-42" fill="none" stroke="#2e7d32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="424" cy="116" r="34" fill="#f0a202"/>
+  <text x="424" y="127" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle">@</text>
+</svg>

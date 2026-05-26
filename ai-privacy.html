@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Rights Guide | AI and Data Privacy</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div id="wrapper">
+    <header>
+      <div id="logo">
+        <h1>Digital Rights Guide</h1>
+        <p>Internet privacy laws and the digital rights of users</p>
+      </div>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="privacy.html">Privacy Rights</a></li>
+          <li><a href="gdpr.html">GDPR</a></li>
+          <li><a href="forgotten.html">Right to Be Forgotten</a></li>
+          <li><a href="moderation.html">Content Moderation</a></li>
+          <li><a class="active" href="ai-privacy.html">AI &amp; Data</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="content">
+        <h1>AI, Data Collection, and Online Safety</h1>
+        <figure class="page-figure">
+          <img src="images/aiprivacy.svg" alt="AI circuit nodes connected to protected personal data">
+          <figcaption>Original graphic showing AI systems connected to protected user data.</figcaption>
+        </figure>
+        <h2>How AI Uses Data</h2>
+        <p>AI systems can depend on large amounts of data to train models, personalize recommendations, detect abuse, or automate decisions. This creates privacy questions about consent, retention, transparency, and whether people understand how their information is being used.</p>
+        <h2>Risks for Users</h2>
+        <ul>
+          <li>Personal information may be used in ways users did not expect.</li>
+          <li>Automated decisions can affect visibility, accounts, or opportunities.</li>
+          <li>AI tools can create convincing misinformation or impersonation.</li>
+          <li>Privacy notices may be difficult for everyday users to understand.</li>
+        </ul>
+        <h2>Quick Check</h2>
+        <section class="quiz-box" id="quiz">
+          <p>A social media app collects location history and profile activity, then gives users a right to access or delete that data. Which topic best fits?</p>
+          <div class="quiz-options">
+            <button type="button" onclick="chooseQuiz('gdpr')">GDPR and data rights</button>
+            <button type="button" onclick="chooseQuiz('section230')">Section 230 only</button>
+            <button type="button" onclick="chooseQuiz('forgotten')">Only search removal</button>
+          </div>
+          <p id="quiz-answer" aria-live="polite"></p>
+        </section>
+        <p class="citation">Research source: <a href="https://www.ftc.gov/business-guidance/privacy-security/artificial-intelligence" target="_blank" rel="noopener">FTC Artificial Intelligence guidance</a>.</p>
+      </section>
+
+      <aside class="sidebar">
+        <h2>Vocabulary</h2>
+        <p><span class="term">Automated decision:</span> A decision made partly or fully by software.</p>
+        <p><span class="term">Data retention:</span> How long information is kept.</p>
+        <p><span class="term">Transparency:</span> Clear explanation of how systems work and use data.</p>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Digital Rights Guide</p>
+      <p>Last Updated: May 2026</p>
+      <p><a href="contact.html">Contact</a> | <a href="resources.html">Resources</a> | <a href="sitemap.html">Site Map</a></p>
+    </footer>
+  </div>
+</body>
+</html>

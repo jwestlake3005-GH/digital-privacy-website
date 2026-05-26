@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
+  <title id="title">AI and privacy graphic</title>
+  <desc id="desc">AI circuit nodes connected to protected personal data.</desc>
+  <rect width="900" height="440" fill="#f7f8fa"/>
+  <rect x="112" y="84" width="676" height="272" rx="18" fill="#ffffff" stroke="#d6dee6" stroke-width="5"/>
+  <circle cx="306" cy="220" r="86" fill="#102a43"/>
+  <text x="306" y="240" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" text-anchor="middle">AI</text>
+  <circle cx="524" cy="150" r="32" fill="#1f4e79"/>
+  <circle cx="640" cy="220" r="32" fill="#f0a202"/>
+  <circle cx="524" cy="290" r="32" fill="#2e7d32"/>
+  <path d="M392 220h96M552 166l60 38M552 274l60-38" stroke="#102a43" stroke-width="8" stroke-linecap="round"/>
+  <path d="M650 256h64v54h-64z" fill="#102a43"/>
+  <path d="M662 256v-28c0-30 40-30 40 0v28" fill="none" stroke="#102a43" stroke-width="14" stroke-linecap="round"/>
+</svg>

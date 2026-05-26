@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
+  <title id="title">Internet privacy law graphic</title>
+  <desc id="desc">A shield protecting user data cards on a digital screen.</desc>
+  <rect width="900" height="440" fill="#f7f8fa"/>
+  <rect x="120" y="72" width="660" height="292" rx="18" fill="#ffffff" stroke="#d6dee6" stroke-width="5"/>
+  <rect x="164" y="120" width="210" height="42" rx="8" fill="#1f4e79"/>
+  <rect x="164" y="188" width="278" height="24" rx="6" fill="#9aa8b5"/>
+  <rect x="164" y="236" width="238" height="24" rx="6" fill="#9aa8b5"/>
+  <rect x="164" y="284" width="302" height="24" rx="6" fill="#9aa8b5"/>
+  <path d="M610 112l118 42v80c0 76-48 124-118 154-70-30-118-78-118-154v-80z" fill="#102a43"/>
+  <path d="M558 244l36 36 78-92" fill="none" stroke="#f0a202" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
